@@ -27,8 +27,8 @@ add_darling_static_library(crt1.10.5 FAT SOURCES ${crt1_v2_source})
 
 set(crt1_v3_source start.S crt.c)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS_BACKUP} -Os ${OS_MIN_V3} -nostdlib -keep_private_externs -DADD_PROGRAM_VARS ")
-add_darling_static_library(crt1.v3 FAT SOURCES ${crt1_v3_source})
-# add_darling_static_library(crt1.10.6 FAT SOURCES ${crt1_v3_source})
+# add_darling_static_library(crt1.v3 FAT SOURCES ${crt1_v3_source})
+add_darling_static_library(crt1.10.6 FAT SOURCES ${crt1_v3_source})
 
 # set(crt1_v4_source start.S crt.c)
 # set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS_BACKUP} -Os ${OS_MIN_V4} -nostdlib -keep_private_externs -DADD_PROGRAM_VARS ")
