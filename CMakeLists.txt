@@ -15,5 +15,3 @@ set(csu_SRCS
 )
 
 add_darling_static_library(csu SOURCES ${csu_SRCS})
-make_fat(csu)
-
