@@ -218,7 +218,7 @@ csu_object(crt1_v3
 		crt.c
 
 	DEFINITIONS
-		ADD_PROGRAM_VAR
+		ADD_PROGRAM_VARS
 )
 
 # OS_MIN_V4	= -mmacosx-version-min=10.6
@@ -233,7 +233,7 @@ csu_object(crt1_v4
 		crt.c
 
 	DEFINITIONS
-		ADD_PROGRAM_VAR
+		ADD_PROGRAM_VARS
 )
 
 # $(SYMROOT)/crt0.o: start.s crt.c
